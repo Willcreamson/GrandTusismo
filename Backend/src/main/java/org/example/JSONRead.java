@@ -34,7 +34,7 @@ public class JSONRead {
             }
 
             System.out.println( latitude);
-           // System.out.println(name.toString());
+            // System.out.println(name.toString());
             //System.out.println(latitude.toString());
 
         }
