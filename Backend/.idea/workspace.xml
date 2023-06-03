@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de0a33dc-cdc3-4d8b-895c-221210a6d011" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../googlemap/google-maps-directions-tutorial-master/yarn.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="de0a33dc-cdc3-4d8b-895c-221210a6d011" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +135,7 @@
       <workItem from="1685054332987" duration="2236000" />
       <workItem from="1685628920501" duration="2848000" />
       <workItem from="1685733845036" duration="2049000" />
-      <workItem from="1685737603820" duration="14829000" />
+      <workItem from="1685737603820" duration="15273000" />
     </task>
     <servers />
   </component>
