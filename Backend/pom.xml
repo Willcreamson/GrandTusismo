@@ -40,6 +40,11 @@
             <artifactId>json</artifactId>
             <version>20230227</version>
         </dependency>
+        <dependency>
+            <groupId>com.mongodb</groupId>
+            <artifactId>bson</artifactId>
+            <version>2.7.1</version>
+        </dependency>
 
     </dependencies>
 
