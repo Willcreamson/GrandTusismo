@@ -8,6 +8,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 import static com.mongodb.client.model.Filters.and;
+import static com.mongodb.client.model.Filters.regex;
+
 
 public class Filters {
 
@@ -120,6 +122,35 @@ public class Filters {
             Connection.monuments = monumentsFilteredByCentury ;
         }
         catch (Exception e){
+            System.err.println(e);
+        }
+    }
+
+    public enum MonumentType {
+        MUSEE,
+        EGLISE,
+        CHATEAU,
+        CHAPELLE,
+        ABBAYE, 
+        MANOIR, 
+        PALAIS, 
+
+    }
+
+    public static void setMonumentByType(MongoCollection<Document> collection, MonumentType monumentType) {
+        //we call this function with this:  setMonumentByType(collection, MonumentType.CHATEAU);
+
+        // Expression to find the type from the nom_monument
+        String typeRegex = monumentType.name().toLowerCase();
+
+        ArrayList<JSONObject> monumentsFilteredByType = new ArrayList<>();
+
+        try (MongoCursor<Document> cursor = collection.find(regex("Nom_monument", typeRegex)).iterator()) {
+            while (cursor.hasNext()) {
+                monumentsFilteredByType.add(new JSONObject(cursor.next().toJson()));
+            }
+            Connection.monuments = monumentsFilteredByType;
+        } catch (Exception e) {
             System.err.println(e);
         }
     }
